@@ -1,5 +1,7 @@
 # Social Preview App
 
+![cover](cover/img.png)
+
 The Social Preview App is a Node.js application that fetches Open Graph metadata from URLs and generates social media preview cards. It extracts information such as title, description, and images (if available), along with the canonical link.
 
 ## How to Use
