@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.social-preview-wrapper {
+    margin: 20px auto;
+    width: 500px;
+}
+
+.fb-social-preview {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.fb-social-preview img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    display: block;
+}
+
+.fb-social-preview-content {
+    padding: 20px;
+}
+
+.fb-social-preview-content h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.fb-social-preview-content p {
+    font-size: 16px;
+    color: #333;
+}
+
+.fb-social-preview-content a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.fb-social-preview-content a:hover {
+    text-decoration: underline;
+}

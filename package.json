@@ -1,0 +1,21 @@
+{
+  "name": "social-preview-app",
+  "version": "1.0.2",
+  "description": "A Node.js app to fetch Open Graph metadata and generate social previews.",
+  "bin": {
+    "social-preview-app": "./cli.js"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.17.1",
+    "html-metadata": "^1.7.1",
+    "node-fetch": "^3.3.2"
+  },
+  "author": "ChatGPT & vika",
+  "license": "MIT"
+}
